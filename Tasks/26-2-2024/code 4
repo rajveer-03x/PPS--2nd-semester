@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int i,j,temp,sum=0;
+    int a[10]={23,45,76,94,67,9,25,56,86,12};
+    for(i=0;i<10;i++)
+    {
+      sum+=a[i];  
+    }
+    printf("%d\n",sum);
+    
+    printf("Written by Rajveer Singh\nMEB2-2330082\n");
+}

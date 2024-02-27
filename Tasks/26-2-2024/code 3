@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()  
+{
+   
+    int i,max;
+    
+    printf("Enter range : ");
+    scanf("%d",&max);
+    int array[max];
+    for(i=0;i<max;i++){
+        printf("Enter numbers : ");
+        scanf("%d",&array[i]);
+    }
+    for(i=0;i<max;i++){
+    printf("%d\n",array[i]);
+}
+    
+
+printf("Written by Rajveer Singh\nMEB2-2330082");
+    return 0;
+}
