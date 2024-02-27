@@ -1,0 +1,73 @@
+#include<stdio.h>
+
+
+  int displayMenu()
+  {
+    
+    printf("=========MENU=========\n");
+    printf("1 . Addition of two numbers\n");
+    printf("2 . Multiplication table of a number\n");
+    printf("3 . Exit\n");
+    printf("===================================\n");
+    return 0;
+  }
+
+  int add()
+  {
+    int a,b;
+    printf("Enter first number : ");
+    scanf("%d",&a);
+    printf("Enter second number : ");
+    scanf("%d",&b);
+    printf("Sum of %d and %d is : %d\n",a,b,a+b);
+    printf("\n\n");
+    return 0;
+  }
+
+  int multiplication()
+  {
+    int num,range,i,j;
+    printf("Enter a number : ");
+    scanf("%d",&num);
+    printf("Enter range for table : ");
+    scanf("%d",&range);
+    for ( i = 1; i <=range; i++)
+    {
+      printf("\n");
+      printf("%d * %d = %d",num,i,num*i);
+    }
+    printf("\n\n");
+    return 0;
+  }
+
+  int main()
+  {int c;
+  printf("=========WELCOME=========\n");
+    
+    do
+    {
+      displayMenu();
+    
+    printf("Enter your choice : ");
+    scanf("%d",&c);
+    switch (c)
+    {
+    case 1:
+     add();
+      break;
+    
+    case 2:
+    multiplication();
+    break;
+
+    case 3:
+    printf("=========THANK YOU=========\n");
+    break;
+
+    default:
+    printf("Enter a valid choice\n");
+      break;
+    }
+    } while (c!=3);
+    return 0;
+  }
