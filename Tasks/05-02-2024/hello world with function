@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+void hii();
+int main()
+{
+  printf("Hello ");
+  hii();
+  return 0;
+}
+void hii()
+{
+printf("World");
+}

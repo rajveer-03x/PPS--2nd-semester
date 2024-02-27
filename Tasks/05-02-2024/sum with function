@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int add();
+int main()
+{
+  int a,b,result;
+  printf("Calculation of sum of two numbers\n");
+  result=add();
+    printf("%d\n",result);
+  
+  return 0;
+}
+int add()
+{
+  int a,b;
+  printf("Enter two nuumbers : \n");
+  scanf("%d %d",&a,&b);
+return a+b;
+}
