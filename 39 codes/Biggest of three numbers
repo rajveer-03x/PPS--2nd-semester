@@ -1,0 +1,26 @@
+         //Biggest of three numbers               
+#include <stdio.h>
+
+int main() 
+ {
+       printf("Rajveer\nMEB2-2330082\n");
+  int a,b,c;
+  printf("Enter three numbers\n");
+  scanf("%d",&a);
+  scanf("%d",&b);
+  scanf("%d",&c);
+  if (a>b&&c)
+  {
+    printf("Biggest among three is %d\n",a); 
+  }
+  else if(b>c&&a)
+  {
+      printf("Biggest among three is %d\n",b);
+  }
+ else if(c>b&&a)
+  {
+      printf("Biggest among three is %d\n",c);
+  }
+  printf("Written by Rajveer\nMEB2-2330082\n");
+    return 0;
+}

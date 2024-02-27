@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+printf("Rajveer\nMEB2-2330082\n");
+  printf("Enter the value of r");
+  
+  float r,pi,area;
+  scanf("%f",&r);
+  pi=3.142;
+  area=pi*r*r;
+  printf("Area of circle of radius %f is %f",r ,area);
+    
+    printf("Rajveer\nMEB2-2330082\n");
+
+     return 0;
+}

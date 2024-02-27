@@ -1,0 +1,19 @@
+         //Odd or even number             
+#include <stdio.h>
+
+int main() 
+ {
+       printf("Rajveer\nMEB2-2330082\n");
+ int a;
+ printf("Enter a number\n");
+scanf("%d",&a);
+if(a%2==0)
+{
+      printf("This number is even\n");
+}
+else{
+      printf("This number is odd\n");
+}
+  printf("Written by Rajveer\nMEB2-2330082\n");
+    return 0;
+}

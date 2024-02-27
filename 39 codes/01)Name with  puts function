@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    
+     puts("Rajveer Singh");
+     puts("Mechanical Engineering");
+     puts("CRN-2330082");
+    puts("village mansuran");
+     puts("Passion Automobile") ;
+     return 0;
+}

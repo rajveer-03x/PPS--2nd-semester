@@ -1,0 +1,21 @@
+                        
+#include <stdio.h>
+
+int main() 
+ {
+       printf("Rajveer\nMEB2-2330082\n");
+   int num=1,r,m;
+   
+   printf("Enter multiple\n");
+   scanf("%d",&m);
+    
+   printf("Enter range");
+   scanf("%d",&r);
+   do
+   {
+      printf("%d\n",m*num);
+      num++;
+   }while(num<=r);
+   
+    return 0;
+}

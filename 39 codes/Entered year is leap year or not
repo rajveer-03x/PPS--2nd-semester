@@ -1,0 +1,19 @@
+         //Entered year is leap year or not              
+#include <stdio.h>
+
+int main() 
+ {
+       printf("Rajveer\nMEB2-2330082\n");
+ int a,b,c,d,e;
+ printf("Enter year\n");
+scanf("%d",&a);
+if(a%4==0)
+{
+      printf("This year is a leap year\n");
+}
+else{
+      printf("This uear is not aleap year\n");
+}
+  printf("Written by Rajveer\nMEB2-2330082\n");
+    return 0;
+}

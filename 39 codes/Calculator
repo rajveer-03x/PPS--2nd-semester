@@ -1,0 +1,46 @@
+#include <stdio.h>
+
+int main()
+{
+printf("Rajveer\nMEB2-2330082");
+    printf("Calculator\n");
+    int a, b, w, x, y, z;
+    char o;
+    printf("p = addition \n m = subtraction \n i = multiplication \n d = division \n ");
+    printf("Enter value for A \n");
+    scanf("%d",&a);
+    printf("Enter value for B \n");
+    scanf("%d",&b);
+    printf("Enter The Function Which U Want To Use: ");
+    scanf(" %c",&o);
+
+    w=a+b;
+    x=a-b;
+    y=a*b;
+    z=a/b;
+
+    switch (o)
+    {
+            case 'p':
+            printf("%d",w);
+            break;
+            
+            case 'm':
+            printf("%d",x);
+            break;
+
+           case 'i':
+            printf("%d",y);
+            break;
+            
+            case 'd':
+            printf("%d",z);
+            break;
+            
+            default:
+            printf("Invalid input");
+            break;
+    }
+printf("Written by Rajveer\nMEB2-2330082");
+   return 0;
+}

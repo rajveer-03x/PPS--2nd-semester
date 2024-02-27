@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, var;
+printf(" Rajveer\nMEB2-2330082\n");
+    printf("Enter first number: ");
+    scanf("%d", &a);
+
+    printf("Enter second number: ");
+    scanf("%d", &b);
+    var = a;
+    a = b;
+    b = var;
+
+    printf("After swapping: number 1 = %d, number 2 = %d\n", a, b);
+printf("Written by Rajveer\nMEB2-2330082\n");
+    return 0;
+}

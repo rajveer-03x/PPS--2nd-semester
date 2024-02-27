@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    float bs, b,c,da, hra,gs;
+printf(" Rajveer\nMEB2-2330082\n");
+   printf("Enter basic salary : ");
+   scanf("%f",&bs);
+
+   printf("Enter percentage of dearness allowance : ");
+   scanf("%f",&b);
+
+   printf("Enter percentage of hour rent allowances : ");
+   scanf("%f",&c);
+
+    da=bs*b/100;
+    hra=bs*c/100;
+    gs=bs+hra+da;
+
+    printf("Gross salary is %f\n",gs);
+
+printf("Written by Rajveer\nMEB2-2330082\n");
+    return 0;
+}

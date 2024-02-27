@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Rajveer\nMEB2-2330082\n");
+     printf("Enter obtained marks\n");
+     float a;
+     scanf("%f",&a);
+    
+      if(a>=40)
+      {
+         printf("PASS\n");
+      
+       if(a>=90)
+      {
+         printf("GRADE A\n");
+      }
+       if(a>=75 && a<90)
+      {
+         printf("GRADE B\n");
+      }
+       if(a<75 && a>=50)
+       {
+         printf("GRADE C\n");
+       }
+       if(a<50)
+       {
+         printf("GRADE D\n");
+       } 
+     
+     else if(a<40)
+     {
+      printf("FAIL\n");
+     }
+    printf("Written by Rajveer \nMEB2-2330082");
+
+     return 0;
+     }  
+}

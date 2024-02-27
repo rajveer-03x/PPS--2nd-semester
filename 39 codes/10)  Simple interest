@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+   printf("Rajveer\nMEB2-2330082\n");
+   float p,r,t,si;
+   printf("Enter the value of principal,Rate and Time\n");
+   scanf("%f",&p);
+   scanf("%f",&r);
+   scanf("%f",&t);
+   si=(p*r*t)/100;
+   
+   printf("Simple interest is %f\n",si);
+printf("Rajveer\nMEB2-2330082\n");
+     return 0;
+}

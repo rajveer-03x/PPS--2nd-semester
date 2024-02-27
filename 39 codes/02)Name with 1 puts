@@ -1,0 +1,13 @@
+
+#include <stdio.h>
+
+int main()
+{
+    
+    
+    puts("Rajveer Singh \nMechanical Engineering \nCRN-2330082 \nVillage Mansuran \nPassion Automobile");
+
+    
+
+     return 0;
+}
