@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+
+
+int main() {
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    
+      for (int i = 1; i <= num; i++) {
+        printf("Cube of %d is: %d\n", i, i*i*i);
+    }
+    
+    printf("Written by Rajveer Singh\nMEB2-2330082\n");
+    return 0 ;
+}
