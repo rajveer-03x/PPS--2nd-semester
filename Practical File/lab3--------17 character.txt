@@ -1,0 +1,41 @@
+                       
+#include <stdio.h>
+
+int main() 
+ {
+   char ip;
+       printf("Rajveer\nMEB2-2330082\n");
+
+  printf("Enter any character from keyboard :  ");
+  scanf("%c",&ip);
+
+  if((ip>='A'&& ip<='Z' ) ||  (ip>='a' && ip<='z') || (ip>='0' && ip<='9'))
+  {
+   if (ip>='A'&& ip<='Z' )
+  {
+   printf("Entered character is from capital letters ,i.e. from A-Z\n");
+  }
+ 
+ else if (ip>='a' && ip<='z')
+ {
+   printf("Entered character is from small letters i.e. from a - z\n");
+ }
+ 
+else if (ip>='0' && ip<='9')
+{
+  printf("Entered character is a number\n");
+}
+  }
+  else
+  {
+       printf("Entered character is a special symbol\n");
+  }
+  
+
+  
+  
+  
+ 
+  printf("Written by Rajveer\nMEB2-2330082\n");
+    return 0;
+}

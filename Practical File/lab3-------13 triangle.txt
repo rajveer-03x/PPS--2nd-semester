@@ -1,0 +1,28 @@
+                       
+#include <stdio.h>
+
+int main() 
+ {
+       printf("Rajveer\nMEB2-2330082\n");
+   int a1,a2,a3;
+
+   printf("Enter first angle : ");
+   scanf("%d",&a1);
+
+printf("Enter second angle : ");
+   scanf("%d",&a2);
+   printf("Enter third angle : ");
+   scanf("%d",&a3);
+  
+
+     if (a1+a2+a3==180)
+     {
+        printf("Triangle is valid");
+     }
+     else{
+        printf("Triangle is not valid");
+     }
+     
+  printf("\nWritten by Rajveer\nMEB2-2330082\n");
+  return 0;
+}

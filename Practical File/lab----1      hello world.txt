@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+  printf("Rajveer Singh\nMEB2-2330082\n");
+
+  printf("Hello World\n");
+
+   printf("Written by Rajveer Singh\nMEB2-2330082\n");
+   return 0;
+}

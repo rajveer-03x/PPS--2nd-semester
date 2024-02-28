@@ -1,0 +1,25 @@
+#include<stdio.h>
+ int main()
+ {
+  printf(" Rajveer\nMEB2-2330082\n");
+  int i,j,x,triangleheight;
+
+  printf("Enter height of triangle : ");
+  scanf("%d",&triangleheight);
+  
+  for ( i = 0; i <= triangleheight; i++){
+    for(j=-1;j<=triangleheight-i+2;j++){
+  printf(" ");printf(" ");
+    }
+  for ( x = 0; x <i; x++)
+  {
+   printf(" *");
+  }
+  
+    printf("\n");
+  
+  }
+  
+  printf("\nWritten by Rajveer\nMEB2-2330082");
+  return 0;
+ }

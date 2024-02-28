@@ -1,0 +1,22 @@
+                       
+#include <stdio.h>
+
+int main() 
+ {
+       printf("Rajveer\nMEB2-2330082\n");
+   int a;
+
+   printf("Enter an integer : \n");
+   scanf("%d",&a);
+
+     if (a<0)
+     {
+        printf("Absolute value is : %d",-a);
+     }
+     else{
+        printf("Absolute value is : %d",a);
+     }
+     
+  printf("\nWritten by Rajveer\nMEB2-2330082\n");
+  return 0;
+}

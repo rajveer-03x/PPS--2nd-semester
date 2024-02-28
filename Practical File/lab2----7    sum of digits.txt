@@ -1,0 +1,20 @@
+ #include<stdio.h>
+ int main()
+ {
+  printf(" Rajveer\nMEB2-2330082\n");
+  
+  int a,sum=0,number;
+  printf("Enter a five digit number\n");
+  scanf("%d",&a);
+  while (a!=0)
+  {
+    number=a%10;
+    sum +=number;
+    a/=10;
+  }
+  printf("Sum is %d\n",sum);
+  
+  printf("Written by Rajveer\nMEB2-2330082\n");
+  return 0;
+ }
+ 

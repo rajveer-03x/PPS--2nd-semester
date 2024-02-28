@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Rajveer\nMEB2-2330082\n");
+    float a,b,c,aggregate_marks,percentage;
+     printf("Enter marks obtained in english : ");
+     scanf("%f",&a);
+
+     printf("Enter marks obtaines in hindi : ");
+     scanf("%f",&b);
+
+     printf("Enter marks obtainedin mathematics : ");
+     scanf("%f",&c);
+   
+     aggregate_marks=a+b+c;
+      printf("Aggregate marks are : %.2f out of 300\n",aggregate_marks);
+      
+       percentage=(aggregate_marks/300)*100;
+      printf("Percentage marks are : %.2f\n",percentage);
+     
+    printf("Written by Rajveer\nMEB2-2330082");
+
+     return 0;
+}  

@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() 
+{      
+    printf("Rajveer\nMEB2-2330082\n");
+   
+   int amount,ten_notes,fifty_notes,hundred_notes;
+   printf("Enter amount : ");
+   scanf("%d",&amount);
+
+     hundred_notes=amount/100;
+     amount%=100;
+
+     fifty_notes=amount/50;
+     amount%=50;
+
+     ten_notes= amount/10;
+     amount%=10;
+
+     printf("Number of hundred noted are : %d\n",hundred_notes);
+     printf("Number of fifty nites are : %d\n",fifty_notes);  
+   printf("Number of ten nites are : %d\n",ten_notes); 
+   
+printf("Written by Rajveer\nMEB2-2330082\n");
+    return 0;
+}

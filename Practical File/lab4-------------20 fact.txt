@@ -1,0 +1,26 @@
+ #include<stdio.h>
+ int main()
+ {
+  printf(" Rajveer\nMEB2-2330082\n");
+  
+    int num;
+    int factorial = 1;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    
+
+    for (int i = 1; i <= num; ++i) {
+        factorial *= i;
+    }
+
+    printf("Factorial of %d is: %d\n", num, factorial);
+
+   
+
+
+  printf("\nWritten by Rajveer\nMEB2-2330082");
+  return 0;
+ }
+ 

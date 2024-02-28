@@ -1,0 +1,31 @@
+         //Biggest of three numbers               
+#include <stdio.h>
+
+int main() 
+ {
+       printf("Rajveer\nMEB2-2330082\n");
+  int a,b,c;
+  printf("Enter Ram's age : ");
+  scanf("%d",&a);
+
+  printf("Enter Shyam's age : ");
+  scanf("%d",&b);
+
+  printf("Enter Ajay's age : ");
+  scanf("%d",&c);
+
+  if (a<b&&c)
+  {
+    printf("Ram is the youngest of three \n"); 
+  }
+  else if(b<c&&a)
+  {
+      printf("Shyam is the youngest of three \n");
+  }
+ else if(c<b&&a)
+  {
+      printf("Ajay is the youngest of three \n");
+  }
+  printf("Written by Rajveer\nMEB2-2330082\n");
+    return 0;
+}

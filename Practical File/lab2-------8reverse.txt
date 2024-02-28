@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() 
+{      
+    printf("Rajveer\nMEB2-2330082\n");
+    int a, reversed = 0, remainder;
+
+    printf("Enter a five digit number : ");
+    scanf("%d", &a);
+
+    while (a != 0) {
+        remainder = a % 10;
+        reversed = reversed * 10 + remainder;
+        a /= 10;
+    }
+
+    printf("Reversed number: %d\n", reversed);
+    
+printf("Written by Rajveer\nMEB2-2330082\n");
+    return 0;
+}

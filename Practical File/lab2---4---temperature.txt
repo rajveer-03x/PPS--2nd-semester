@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Rajveer\nMEB2-2330082\n");
+  float fahrenheit,temperature;
+  printf("Enter temperature of city in degrees fahrenheits : ");
+  scanf("%f",&fahrenheit);
+  
+ temperature = (fahrenheit - 32) *5/9;
+
+  printf("Temperature in centigrade degrees is : %.2f\n",temperature);
+    printf("Written by Rajveer\nMEB2-2330082");
+
+     return 0;
+}  

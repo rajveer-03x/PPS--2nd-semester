@@ -1,0 +1,25 @@
+                       
+#include <stdio.h>
+
+int main() 
+ {
+       printf("Rajveer\nMEB2-2330082\n");
+   int cp,sp;
+
+   printf("Enter cost price : \n");
+   scanf("%d",&cp);
+
+   printf("Enter selling price : \n");
+   scanf("%d",&sp);
+
+     if (cp<sp)
+     {
+        printf("You made a profit of %d",sp-cp);
+     }
+     else{
+        printf("You are in loss of %d",cp-sp);
+     }
+     
+  printf("\nWritten by Rajveer\nMEB2-2330082\n");
+  return 0;
+}

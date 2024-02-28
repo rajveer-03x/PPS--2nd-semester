@@ -1,0 +1,31 @@
+                       
+#include <stdio.h>
+
+int main() 
+ {
+   float days,fine=0;
+       printf("Rajveer\nMEB2-2330082\n");
+
+  printf("Enter the number of days :  ");
+  scanf("%f",&days);
+
+ if (days<=5 && days>=1)
+ {
+  printf("Your fine is %.2f Rs\n",days*0.50);
+ }
+  if (days>=6 && days<=10)
+  {
+   printf("Your fine is %.2f Rs\n",2.50+(days*1)-5);
+  }
+  if (days>=11 && days<=30)
+  {
+   printf("Your fine is %.2f Rs\n",(days*5)-42.5);
+  }
+  if (days>30)
+  {
+  printf("Note- Your library membership is cancelled\n");
+  }
+ 
+  printf("Written by Rajveer\nMEB2-2330082\n");
+    return 0;
+}

@@ -1,0 +1,24 @@
+                       
+#include <stdio.h>
+
+int main() 
+ {
+       printf("Rajveer\nMEB2-2330082\n");
+   int a;
+
+   printf("Enter an integer : ");
+   scanf("%d",&a);
+
+  
+
+     if (a%2==0)
+     {
+        printf("Integer is even");
+     }
+     else{
+        printf("Integer is odd");
+     }
+     
+  printf("\nWritten by Rajveer\nMEB2-2330082\n");
+  return 0;
+}

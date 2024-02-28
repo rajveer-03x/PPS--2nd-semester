@@ -1,0 +1,52 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, var;
+printf(" Rajveer\nMEB2-2330082\n");
+    printf("Enter first number: ");
+    scanf("%d", &a);
+
+    printf("Enter second number: ");
+    scanf("%d", &b);
+    var = a;
+    a = b;
+    b = var;
+
+    printf("After interchanging: number 1 = %d, number 2 = %d\n", a, b);
+printf("Written by Rajveer\nMEB2-2330082\n");
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+
+
+
+
+int main() {
+    int num1, num2;
+
+     printf("Rajveer\nMEB2-2330082\n");
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
+
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+
+num1=num1+num2;
+num2=num1-num2;
+num1=num1-num2;
+
+  
+    printf("Swapped numbers:\n num1 = %d\n num2 = %d\n", num1, num2);
+       printf("written by Rajveer\nMEB2-2330082\n");
+    return 0;
+}

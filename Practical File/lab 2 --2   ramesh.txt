@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    float basic_salary, da, hra,gross_salary;
+printf(" Rajveer\nMEB2-2330082\n");
+   printf("Enter basic salary : ");
+   scanf("%f",&basic_salary);
+
+    da=basic_salary*20/100;
+    hra=basic_salary*20/100;
+    gross_salary=basic_salary+hra+da;
+
+    printf("Gross salary is %f\n",gross_salary);
+
+printf("Written by Rajveer\nMEB2-2330082\n");
+    return 0;
+}
