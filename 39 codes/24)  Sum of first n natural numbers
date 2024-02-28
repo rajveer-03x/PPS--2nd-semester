@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int i,j,sum=0,r;
+    
+    printf("Enter range : ");
+    scanf("%d",&r);
+    printf("Natural numbers upto %d :\n",r);
+    for ( i = 0; i <= r; i++)
+    {
+        printf("%d\n",i);
+        sum+=i;
+    }
+    printf("Sum of %d numbers is : %d \n",r,sum);
+       
+
+   
+    
+    printf("Written by Rajveer Singh\nMEB2-2330082\n");
+}
