@@ -1,0 +1,17 @@
+/*Q2. An electron in an orbit is moving with speed 5m/s. Find de-Broglie wavelength 
+associated with the moving electron. Given h= 6.63x10-34 joule-sec, mass of electron 
+ me = 9.1x10-31kg. */
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+double m,v,h,l;
+printf("λ = h/mv\n");
+m=9.1*pow(10,-31);
+v=5;
+h=6.63*pow(10,-34);
+l=h/(m*v);
+ printf("λ = %.2e m",l);
+printf("\nWritten by Rajveer Singh\nMEB2-2330082\n");
+return 0;
+}
