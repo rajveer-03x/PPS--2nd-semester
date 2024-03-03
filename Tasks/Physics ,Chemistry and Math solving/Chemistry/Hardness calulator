@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+float m1,m2;
+printf("Enter amount of impurity (in mg/l) : ");
+scanf("%f",&m1);
+
+printf("Enter Molecular Weight of that impurity : ");
+scanf("%f",&m2);
+
+ float MW=(m1*100)/m2;
+printf("Hardness in water sample is : %.2f mg/l",MW);
+printf("\nWritten by Rajveer Singh\nMEB2-2330082\n");
+return 0;
+}
