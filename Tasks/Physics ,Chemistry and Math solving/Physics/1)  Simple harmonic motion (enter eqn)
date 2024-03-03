@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <math.h>
+#include<string.h>
+
+int main() {
+    char eqn[50];
+    double amp, af, frequency, time_period,x;
+   printf("Please enter the equation")
+   
+    printf("%d",eqn);
+    // Given equation: x(t) = 8 * 10^-2 * sin(0.6πt)
+    // amp = 8 * 10^-2
+    amp = 8 * pow(10, -2);
+    
+    // Angular frequency = 0.6π
+    af = 0.6 * M_PI;
+    
+    // Frequency = Angular frequency / (2π)
+    frequency = af / (2 * M_PI);
+    
+    // Time period = 1 / Frequency
+    time_period = 1 / frequency;
+    
+    printf("Amplitude: %lf m\n", amp);
+    printf("Angular frequency: %lf rad/s\n", af);
+    printf("Frequency: %lf Hz\n", frequency);
+    printf("Time period: %lf s\n", time_period);
+    
+    return 0;
+}
