@@ -9,7 +9,7 @@ printf("Enter atomic mass of Cl : ");
 scanf("%f",&m2);
 
  float MW=m1+2*m2;
-printf("Molecular mass of Calcium Chloride is : %.2f",MW);
+printf("Molecular mass of Calcium Chloride is : %.2f g",MW);
 printf("\nWritten by Rajveer Singh\nMEB2-2330082\n");
 return 0;
 }
