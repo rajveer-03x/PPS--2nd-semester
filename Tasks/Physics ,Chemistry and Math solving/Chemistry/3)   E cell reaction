@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+float m1,m2,E1,G,E0;
+printf("Zn(s)   --->    Zn^2+  +    2e^-1\n");
+printf("Cu2+   +  2e^-1   --->    Cu(s)\n");
+printf("Overall reaction is .....\n");
+printf("Zn(s)   +    Cu^2+    --->    Zn^2+   +    Cu(s)\n");
+
+
+ E0= 0.34+0.76;
+E1=E0-(0.059/2)*log(0.1/0.175);
+G=-(2*965*E1);
+
+printf("Resulyt is : %.4f",G);
+printf("\nWritten by Rajveer Singh\nMEB2-2330082\n");
+return 0;
+}
