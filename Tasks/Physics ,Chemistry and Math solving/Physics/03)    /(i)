@@ -1,0 +1,15 @@
+/*Q2. An electron in an orbit is moving with speed 5m/s. Find de-Broglie wavelength 
+associated with the moving electron. Given h= 6.63x10-34 joule-sec, mass of electron 
+ me = 9.1x10-31kg. */
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+double m,v,h,l,S;
+printf("A=i^2x + j^Sy^2 - k^3z^2\n");
+printf("dell_vector . A = 2 + 2yS - 6z = 0  (Because feild is solenoidal\n");
+printf("At (1,2,1) We get .....\n2+2*(2)S-6*(1)=0\n4+4S-6=0\nS=1\n");
+
+printf("\nWritten by Rajveer Singh\nMEB2-2330082\n");
+return 0;
+}
