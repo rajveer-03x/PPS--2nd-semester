@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+float m1,m2,E1,G,E0;
+printf("Let solubility of AgCl in water be x m-le per litre\n");
+printf("1<sp   =    [Ag^2+]    [CO^-]\n");
+printf("       =     x.x\n");
+printf("       =     x2\n");
+printf("But solubility product is 1.6*10^-10\n");
+printf("x^2 = 1.6*10^-10\n    =1.26*10^-5 m-le/litre\n");
+
+ 
+printf("\nWritten by Rajveer Singh\nMEB2-2330082\n");
+return 0;
+}
