@@ -5,7 +5,7 @@
     
     *average = sum / 3.0;
     
-    *percentage = (sum / 3.0) * 100 / 100; 
+    *percentage = (sum / 300) * 100; 
 }
 
 int main() {
