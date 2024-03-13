@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main ()
+{
+   
+   int a,b,*c,*d;
+  printf("Enter first number : ");
+  scanf("%d",&a);
+  printf("Enter second number : ");
+scanf("%d",&b);
+c=&a;
+d=&b;
+  
+  printf("Before swapping\nNumber 1 : %d\nNumber 2: %d\n",*c , *d);
+
+  int temp =*c;
+  *c =*d;
+  *d = temp;
+   printf("After swapping \nNumber 1: %d\n Number 2 : %d",*c,*d);
+  
+  
+   printf("\nWritten by Rajveer Singh\nMEB2-2330082\n");
+
+      return 0;
+    
+  
+}
