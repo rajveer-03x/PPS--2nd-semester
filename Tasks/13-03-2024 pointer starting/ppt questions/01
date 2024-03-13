@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main ()
+{
+   int x=20;
+   int *p;
+   p=&x;
+
+   printf("Value of pointer P is : %d\n",*p);
+
+   printf("Address of pointer P is : %p\n",p);
+
+   printf("\nWritten by Rajveer Singh\nMEB2-2330082\n");
+
+      return 0;
+    
+  
+}
