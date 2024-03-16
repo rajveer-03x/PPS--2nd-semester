@@ -1,0 +1,38 @@
+
+#include <stdio.h>
+#include<string.h>
+struct info
+{
+   char name[50];
+   int crn;
+   int urn;
+   char branch[20];
+}person1,p[50],p1[50];
+
+int main()
+{
+    printf("Enter name : ");
+    gets(person1.name);
+
+    printf("Enter college roll number : ");
+    scanf("%d",&person1.crn);
+
+    printf("Enter university roll number : ");
+    scanf("%d",&person1.urn);
+
+    printf("Enter branch : ");
+    gets(person1.branch);
+
+    printf(" name : %s \n",person1.name);
+    
+    printf(" college roll number : %d\n",person1.crn);
+    
+
+    printf(" university roll number : %d\n",person1.urn);
+    
+    printf(" branch : %s\n",person1.branch);
+    
+printf("\nWritten by Rajveer Singh\nMEB2-2330082\n");
+return 0;
+
+}
