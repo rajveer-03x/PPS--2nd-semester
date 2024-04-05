@@ -1,0 +1,27 @@
+ 
+#include <stdio.h>
+#include<string.h>
+
+struct Book{
+    char title[50];
+    char author[50];
+    float price;
+}book1;
+
+int main() {
+  
+  printf("Enter book name : ");
+  scanf("%s",book1.title);
+  printf("Enter Author name : ");
+  scanf("%s",book1.author);
+  printf("Enter book price : ");
+  scanf("%f",&book1.price);
+  
+   printf("Book name : %s\n",book1.title);
+   
+  printf("Author name : %s\n",book1.author);
+  
+  printf("Book price : %2.f\n",book1.price);
+  printf("Written by Rajveer Singh\n MEB2-2330082\n");
+    return 0;
+}
