@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main()
+{
+    FILE *fptr;
+    fptr=fopen("file.txt","w");
+    char arr[100];
+    fprintf(fptr,"Hello World");
+    fclose(fptr);
+    printf("\nWritten by Rajveer Singh\n MEB2-2330082\n");
+    return 0;
+}
